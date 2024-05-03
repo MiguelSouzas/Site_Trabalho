@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -44,8 +44,8 @@ nav {
 }
 
 hr {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sub_titulo {
@@ -97,6 +97,10 @@ hr {
     height: 150px;
 }
 
+.img_func {
+    border-radius: 20px;
+}
+
 #carlos {
     border-radius: 0;
 }
@@ -113,12 +117,50 @@ h4 {
     font-size: 20px;
 }
 
+.serv_card
+
 
 
 .img_func {
     width: 80%;
     height: 60%;
     border-radius: 20px;
+}
+
+#servicos {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.serv_geral {
+    display: flex;
+}
+
+.serv_titulo {
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.serv_card {
+    background-color: #004AAD;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.serv_detalhe {
+    color: white;
+    padding: 10px;
 }
 
 
@@ -130,4 +172,5 @@ h4 {
     border-radius: 20px 20px 0px 0px;
     background-color: #004AAD;
     padding: 20px 20px 20px 20px;
+    margin: 10px 10px;
 }
