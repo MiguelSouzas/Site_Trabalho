@@ -1,19 +1,20 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 nav {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 
 .navBtn {
     background-color: #004AAD;
@@ -42,40 +43,157 @@ nav {
     padding-right: 22px;
 }
 
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
 .sign_Btn:hover {
     background-color: #002350;
     transition: 0.2s;
 }
 
+.equipe {
+    display: flex;
+    flex-direction: column;
+}
+
+.func_geral {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.func {
+    background-color: #004AAD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 32%;
+}
+
 .func_detalhe {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    height: auto;
+    width: 80%;
+    font-size: 14px;
+    color: white;
+    height: 150px;
 }
+
+.img_func {
+    border-radius: 20px;
+}
+
+#carlos {
+    border-radius: 0;
+}
+
+#ana {
+    border-radius: 20px 0px 0px 20px;
+}
+#lucas {
+    border-radius: 0px 20px 20px 0px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.serv_card
 
 
 
 .img_func {
-    width: 50%;
-    height: 40%;
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+#servicos {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.serv_geral {
+    display: flex;
+}
+
+.serv_titulo {
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.serv_card {
+    background-color: #004AAD;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.serv_detalhe {
+    color: white;
+    padding: 10px;
 }
 
 
-
-.contatos{
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #004AAD 150px;
-    border-style:solid;
+#rodape{
+    border: #004AAD;
+    height: 400px;
+    width:  auto;
     border-radius: 20px 20px 0px 0px;
     background-color: #004AAD;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px;
+
 }
 
-
-
-.rede_ocial{
-    
+.rede_social{
+    color: white;
+    float: left;
+    font-size: 16px;
 }
 
-/* .img {
-    width: auto;
-} */
+.form_pag{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 80%;
+    color: white;
+
+}
+
+.termos{
+    color: white;
+    float: right;
+    position: relative;
+    top: -20%;
+    font-size: 16px;
+}
