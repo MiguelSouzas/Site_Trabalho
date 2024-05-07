@@ -168,6 +168,22 @@ h4 {
     border: #004AAD;
     height: 400px;
     width:  auto;
+
+
+
+.termos{
+    color: white;
+    float: right;
+    position: relative;
+    top: -20%;
+    font-size: 16px;
+}
+}
+
+#contatos{
+    border: #004AAD;
+    height: 100%;
+    width: auto;
     border-radius: 20px 20px 0px 0px;
     background-color: #004AAD;
     padding: 20px 20px 20px 20px;
@@ -188,12 +204,4 @@ h4 {
     top: 80%;
     color: white;
 
-}
-
-.termos{
-    color: white;
-    float: right;
-    position: relative;
-    top: -20%;
-    font-size: 16px;
 }
