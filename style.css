@@ -279,6 +279,11 @@ h4 {
 }
 
 
+.img_port {
+    border-radius: 20px;
+}
+
+
 .port_princ {
     background-color: #004AAD;
     margin: 0px 10px;
@@ -293,15 +298,13 @@ h4 {
     border-radius: 20px;
 }
 
+/*inicio do comentario*/
 
-#rodape{
+ #rodape{
     border: #004AAD;
     height: 400px;
     width:  auto;
 }
-
-
-
 
 #contatos{
     border: #004AAD;
@@ -337,6 +340,8 @@ h4 {
     float: left;
     font-size: 16px;
 }
+
+/*final do comentario*/
 
 .forma_pag{
     color: white;
