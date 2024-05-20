@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 0.1%;
     font-family: "Roboto", sans-serif;
 }
 
 #pag_inicial {
     background-color: #004AAD;
-    margin: 0px 10px;
     border-radius: 0px 0px 20px 20px;
     height: auto;
     margin-bottom: 30px;
@@ -108,7 +107,6 @@ nav {
     background-color: #004AAD;
     color: white;
     padding: 20px;
-    margin: 0px 10px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
@@ -144,17 +142,17 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+
 }
 
 #destq_princ {
     background-color: #004AAD;
-    margin: 0px 10px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
@@ -181,7 +179,6 @@ nav {
 .func_geral {
     display: flex;
     justify-content: space-around;
-    margin: 10px 10px;
 }
 
 .func {
@@ -193,6 +190,7 @@ nav {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 10px;
     width: 32%;
 }
 
@@ -212,17 +210,6 @@ nav {
     border-radius: 20px;
 }
 
-#carlos {
-    border-radius: 0;
-}
-
-#ana {
-    border-radius: 20px 0px 0px 20px;
-}
-#lucas {
-    border-radius: 0px 20px 20px 0px;
-}
-
 h4 {
     margin: 0;
     font-size: 20px;
@@ -240,13 +227,12 @@ h4 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 10px;
     margin-bottom: 30px;
 }
 
 .serv_geral {
     display: grid;
-    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
 
@@ -279,30 +265,27 @@ h4 {
 }
 
 
-.img_port {
-    border-radius: 20px;
-}
-
-
-.port_princ {
+#portfolio > .port_princ {
     background-color: #004AAD;
-    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 30px;
     border-radius: 20px;
     padding: 40px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .img_port {
     border-radius: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 /*inicio do comentario*/
 
  #rodape{
     border: #004AAD;
-    height: 400px;
+    height: auto;
     width:  auto;
 }
 
@@ -316,8 +299,6 @@ h4 {
     border-radius: 20px 20px 0px 0px;
     background-color: #004AAD;
     padding: 20px;
-    margin: 0px 10px;
-    
 }
 
 .contato_main {
@@ -329,34 +310,179 @@ h4 {
 
 .ajuda{
     color: white;
-    float: right;
-    position: relative;
-    top: -20%;
     font-size: 16px;
 }
 
 .rede_social{
     color: white;
-    float: left;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 /*final do comentario*/
 
-.forma_pag{
-    color: white;
-    float: right;
-    position: relative;
-    top: -20%;
+.forma_pag {
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
-.dados_empresa{
+.dados_empresa {
     text-align: center;
-    position: relative;
-    font-size: 20px;
-    top: -20%;
-    padding-top: 20px;
     font-size: 18px;
 }
 
+
+
+
+
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .navBtn {
+        width: 100%;
+        border: black solid 0.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign_Btn {
+        width: 100%;
+        border: black solid 0.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre_nos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sob_nos_princ {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #emp_princ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texto_sobre_emp {
+        width: 70%;
+    }
+
+    #div_img_emp {
+        width: 45%;
+        height: 45%;
+    }
+    
+    .destaq_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .func_geral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .func {
+        width: 100%;
+    }
+
+}
+
+
+    #portfolio > .port_princ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .port_princ > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .img_port {
+        margin: 0px 10px;
+    }
+
+    .forma_pag {
+        width: 210px;
+    }
+
+
+    
+
+@media (max-width: 375px) {
+
+    #img_main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img_main > img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .destaq_item > h4 {
+        font-size: 12px;
+    }
+
+    .serv_geral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #portfolio > .port_princ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .port_princ > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ajuda {
+        font-size: 12px;
+    }
+
+    .forma_pag {
+        width: 150px;
+    }
+
+    .rede_social {
+        font-size: 12px;
+    }
+
+    .dados_empresa {
+        font-size: 15px;
+    }
+
+}
