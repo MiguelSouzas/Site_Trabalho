@@ -1,23 +1,31 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.1%;
+    font-family: "Roboto", sans-serif;
+}
+
+#pag_inicial {
+    background-color: #004AAD;
+    border-radius: 0px 0px 20px 20px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 nav {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+
 .navBtn {
-    background-color: #004AAD;
-    color: white;
+    background-color: white;
+    color: #004AAD;
     text-decoration: none;
     border-radius: 20px;
     padding-top: 10px;
@@ -27,8 +35,8 @@ nav {
 }
 
 .navBtn:hover {
-    background-color: #0269f0;
-    transition: 0.2s;
+    background-color: #FFF2D2;
+    transition: 0.3s;
 }
 
 .sign_Btn {
@@ -43,19 +51,437 @@ nav {
 }
 
 .sign_Btn:hover {
-    background-color: #004db1;
-    transition: 0.2s;
+    background-color: #001a3c;
+    transition: 0.3s;
+}
+
+#hr_top {
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+
+#hr_bot {
+    margin: 20px 10px;
+}
+
+.sub_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#sobre_nos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#titulo_princ {
+    font-size: 45px;
+    text-decoration: underline #FFF2D2;
+}
+
+.sob_nos_princ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 60%;
+}
+
+#texto_sobre_nos {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#emp_princ { 
+    background-color: #004AAD;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto_sobre_emp {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#div_img_emp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_emp {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.texto_emp {
+    padding: 20px;
+}
+
+#destaques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+#destq_princ {
+    background-color: #004AAD;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.destaq_item {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #004AAD;
+}
+
+.destaq_item:hover {
+    background-color: #FFF2D2;
+    transition: 0.3s;
+}
+
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.func_geral {
+    display: flex;
+    justify-content: space-around;
+}
+
+.func {
+    background-color: #004AAD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 32%;
 }
 
 .func_detalhe {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    height: auto;
+    width: 80%;
+    font-size: 14px;
+    color: white;
+    height: 150px;
+}
+
+.img_func {
+    border-radius: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.img_func {
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+#servicos {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.serv_geral {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.serv_titulo {
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.serv_card {
+    background-color: #004AAD;
+    width: 95%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serv_detalhe {
+    color: white;
+    padding: 10px;
+    width: 85%;
+}
+
+
+#portfolio > .port_princ {
+    background-color: #004AAD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.img_port {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+/*inicio do comentario*/
+
+ #rodape{
+    border: #004AAD;
+    height: auto;
+    width:  auto;
+}
+
+#contatos{
+    border: #004AAD;
+    color: white;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #004AAD;
+    padding: 20px;
+}
+
+.contato_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.ajuda{
+    color: white;
+    font-size: 16px;
+}
+
+.rede_social{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/*final do comentario*/
+
+.forma_pag {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.dados_empresa {
+    text-align: center;
+    font-size: 18px;
 }
 
 
 
 
-.img_func {
-    width: 50%;
-    height: 40%;
+
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .navBtn {
+        width: 100%;
+        border: black solid 0.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign_Btn {
+        width: 100%;
+        border: black solid 0.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre_nos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sob_nos_princ {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #emp_princ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texto_sobre_emp {
+        width: 70%;
+    }
+
+    #div_img_emp {
+        width: 45%;
+        height: 45%;
+    }
+    
+    .destaq_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .func_geral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .func {
+        width: 100%;
+    }
+
+}
+
+
+    #portfolio > .port_princ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .port_princ > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .img_port {
+        margin: 0px 10px;
+    }
+
+    .forma_pag {
+        width: 210px;
+    }
+
+
+    
+
+@media (max-width: 375px) {
+
+    #img_main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img_main > img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .destaq_item > h4 {
+        font-size: 12px;
+    }
+
+    .serv_geral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #portfolio > .port_princ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .port_princ > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ajuda {
+        font-size: 12px;
+    }
+
+    .forma_pag {
+        width: 150px;
+    }
+
+    .rede_social {
+        font-size: 12px;
+    }
+
+    .dados_empresa {
+        font-size: 15px;
+    }
+
 }
